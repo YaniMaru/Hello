@@ -161,7 +161,7 @@ void SelectionSort(int[] array) //метод упорядочивания мас
     for (int i = 0; i < array.Length - 1; i++)
     {
         int maxPosition = i;
-        //ищем мин элемент
+        //ищем мax элемент
         for (int j = i + 1; j < array.Length; j++)
         {
             if (array[j] > array[maxPosition]) maxPosition = j;
